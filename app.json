@@ -1,0 +1,32 @@
+{
+	"name": "THM_DL",
+	"description": "A python oriented Telegram Bot to Download and Fetch Valid/Invalid TryHackMe Certificates",
+	"logo": "",
+	"repository": "https://github.com/riz4d/THMDL-BOT",
+	"env": {
+        "bot_token": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+        }
+            "api_id": {
+            "description": "Your Telegram api id",
+            "value": ""
+        }
+          "api_hash": {
+            "description": "Your Telegram APi Hash",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
