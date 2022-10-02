@@ -7,6 +7,18 @@ A python oriented Telegram Bot to Download and Fetch Valid/Invalid [TryHackMe](h
  
  ### variables
  
+ ##### Open config.py using a text editor:
+
+```
+put here the values :
+
+api_id = "<API-ID-HERE>"
+api_hash = "<API-HASH-HERE>"
+bot_token = "<BOT-TOKEN-HERE>"
+```
+
+
+ 
 ### Run Program at local machine
 
 
