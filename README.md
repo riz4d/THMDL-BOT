@@ -18,6 +18,8 @@ bot_token = "<BOT-TOKEN-HERE>"
 ```
 
 
+ ### Deploy
+ [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/riz4d/THMDL-BOT)
  
 ### Run Program at local machine
 
