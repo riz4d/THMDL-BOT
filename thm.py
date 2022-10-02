@@ -1,6 +1,7 @@
 from pyrogram import *
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from config import api_hash,api_id,bot_token,url
+from config import api_hash,api_id,bot_token
+from constant import url
 import wget
 import requests
 import os
